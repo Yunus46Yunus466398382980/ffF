@@ -1,0 +1,47 @@
+.box__parent{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: red;
+    width: 220px;
+    height: 220px;
+}
+
+@media (min-width: 1196px) and (max-width: 1436px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 956px) and (max-width: 1195px) {
+    .box {
+        background-color: green;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 956px) {
+    .box {
+        background-color: burlywood;
+    }
+
+}   
+
+@media (min-width: 413px) and (max-width: 716px) {
+    .box {
+        background-color: dimgray;
+    }
+
+}   
+
+@media (min-width: 413px) and (max-width: 476px) {
+    .box {
+        background-color: rgb(0, 0, 0);
+    }
+
+}  
